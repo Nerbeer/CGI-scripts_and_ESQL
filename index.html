@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>r2d2</title>
+	<meta charset = "utf-8">
+	
+</head>
+<body>
+	Получить информацию о поставщиках, поставивших детали для изделия из указанного города.
+	<form action="http://cyber-deus-linux/cgi-bin/prog2" method=GET>
+	<select name="town">
+	    <option selected ="Афины">Афины</option>
+	    <option ="Лондон">Лондон</option>
+	    <option ="Осло">Осло</option>
+	    <option ="Париж">Париж</option>
+	    <option ="Рим">Рим</option>  
+    </select>
+	<input type=submit value=Send>
+	</form>
+	<br /><br />
+	Увеличить рейтинг поставщика, выполнившего наибольшую поставку некоторой детали на указанную величину.
+	<form action="http://cyber-deus-linux/cgi-bin/prog" method=GET>
+	Рейтинг + 
+	<input type="number" maxlength=150 name=rating min="1" max="99">
+	<input type=submit value=Send>
+	</form>
+	<footer>
+		
+	</footer>
+</body>
+</html>
